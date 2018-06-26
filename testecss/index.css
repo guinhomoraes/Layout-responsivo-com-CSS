@@ -1,0 +1,135 @@
+/* ---------- RESET ---------- */
+*{margin: 0;padding: 0;font-size: 100%;border: none;outline: none;box-sizing:border-box;}
+body{background: #f5f5f5;}
+a{text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%;}
+
+
+/* ---------- CABEÇALHO ---------- */
+.cabecalho{
+	width: 100%;
+	float: left;
+	height: 56px;
+	background: #D0CBCB;
+}
+
+/* ---------- LOGO ---------- */
+.logo{
+	width: 56px;
+	height: 56px;
+	float: left;
+	background: url('https://images.vexels.com/media/users/3/137198/isolated/lists/07f0d7b69ef071571e4ada2f4d6a053a--cone-instagram-colorido.png');
+	background-size: cover;
+}
+
+/* ---------- MENU-BUTTON ---------- */
+.btn-menu{
+	width: 56px;
+	height: 56px;
+	float: right;
+	background: #D0CBCB;
+	color: white;
+}
+
+/* ---------- MENU-NAV ---------- */
+
+
+
+/* ---------- BANNER ---------- */
+
+.banner{
+	float: left;
+	width: 100%;
+	background: url('https://png.pngtree.com/thumb_back/fw800/back_pic/00/02/24/0356150b888816f.jpg') no-repeat;
+	background-size: cover;
+	height: 250px;
+}
+
+/* ---------- SERVICOS ---------- */
+
+.servicos{
+	width: 100%;
+	float: left;
+	margin: 2% 0 2% 0;
+	background:white;
+}
+.servico{
+	width: 100%;
+	float: left;
+	padding: 2% 2% 2% 2%;
+}
+.servico .imagem{
+	width: 100%;
+}
+.servico .imagem img{
+	width: 100%;
+}
+.servico .conteudo{
+	width: 100%;
+	margin: 2% 0 2% 0;
+}
+
+.servico .conteudo h4{
+	text-align: center;
+	margin: 2% 0 2% 0;
+}
+
+.servico .conteudo p{
+	text-align: justify;
+	text-indent: 1.25em;
+}
+
+/* --- INFO  --- */
+.info{
+	width: 100%;
+	float: left;
+	background: black;
+	height: auto;
+	padding: 2% 2% 2% 2%;
+}
+.info .contato{
+	width: 100%;
+	float: left;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 3%;
+}
+.info .contato p{
+	margin: 10% 0 3% 0;
+}
+.info .contato li{
+	margin: 1% 0 1% 0;
+}
+.info .mapa{
+	width: 100%;
+	float: right;
+}
+.info .mapa iframe{
+	width: 100%;
+	height: 300px;
+}
+
+@media (min-width: 480px){
+	.servico{
+		width: 48%;
+	}
+	.servico:nth-child(2){
+		margin-left: 2%;
+	}
+}
+
+
+@media (min-width: 768px){
+	.servico{width: 32%;}
+	.servico:nth-child(3){
+		margin-left: 2%;
+	}
+	.info .contato{
+		width: 40%;
+	}
+	.info .mapa{
+		width: 60%;
+	}
+}
