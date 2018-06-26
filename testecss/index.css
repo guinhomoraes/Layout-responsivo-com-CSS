@@ -157,4 +157,24 @@ img{max-width: 100%;}
 	.info .mapa{
 		width: 60%;
 	}
+	.menu{
+		display: block;
+		width: 80%;
+		float: right;
+		background: none;
+		position: relative;
+	}
+	.menu ul{
+		margin-top: 0;
+	}
+	.menu ul li{
+		color: black;
+		float: right;
+		text-align: right;
+		margin-right: 2%;
+		font-size: 20px;
+	}
+	.btn-menu, .btn-close{
+		display: none;
+	}
 }
